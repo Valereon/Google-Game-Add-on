@@ -1,1 +1,3 @@
-alert("This is poggers");
+function pog(){
+    alert("This is poggers");    
+}
