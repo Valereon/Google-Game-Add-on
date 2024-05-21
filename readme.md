@@ -1,0 +1,1 @@
+Idea that your character is ‘trapped’ inside this Google doc, and you have to buy upgrades and stuff to extend the pages and try to escape from it and maybe have some farming with trees and cool stuff
