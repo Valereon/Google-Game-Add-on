@@ -2,5 +2,6 @@ function onSuccess(){
     return;
 }
 
-
-google.script.run.withSuccessHandler(onSuccess).drawFrame();
+function runGAScriptFunc(method){
+    google.script.run.withSuccessHandler(onSuccess)[method]();
+}
