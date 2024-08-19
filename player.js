@@ -34,3 +34,8 @@ function checkBounds(){
         playerY = 0
     }
 }
+
+
+function getPlayerXY(){
+    return playerX, playerY
+}
