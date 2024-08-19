@@ -5,21 +5,19 @@ var playerY = 0;
 
 function movePlayer(dir){
     if(dir == "N"){
-        playerY += 63;
-        checkBounds()
+        playerY += 63
     }
     if(dir == "S"){
         playerY -= 63
-        checkBounds()
     }
     if(dir == "E"){
         playerX += 1
-        checkBounds()
     }
     if(dir == "W"){
         playerX -= 1
-        checkBounds()
     }
+    checkBounds()
+    run()
 }
 
 
