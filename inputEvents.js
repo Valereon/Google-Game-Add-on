@@ -1,20 +1,20 @@
 function getInputLoop() {
     addEventListener("keydown", function (event) {
-        if (event.code == "w") {
+        if (event.key == "w") {
             movePlayer("N")
             this.alert("North")
         }
-        if (event.code == "s") {
+        if (event.key == "s") {
             movePlayer("S")
             this.alert("south")
         }
-        if (event.code == "d") {
+        if (event.key == "d") {
             movePlayer("E")
             this.alert("east")
         }
-        if (event.code == "a") {
+        if (event.key == "a") {
             movePlayer("W")
-            this.alert("west")
+            this.alert()
         }
     });
 }
