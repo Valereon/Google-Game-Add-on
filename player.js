@@ -17,7 +17,6 @@ function movePlayer(dir){
         playerX -= 1
     }
     checkBounds()
-    run()
 }
 
 
