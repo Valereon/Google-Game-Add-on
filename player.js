@@ -5,10 +5,10 @@ var playerY = 0;
 
 function movePlayer(dir){
     if(dir == "N"){
-        playerY += 100
+        playerY -= 100
     }
     if(dir == "S"){
-        playerY -= 100
+        playerY += 100
     }
     if(dir == "E"){
         playerX += 1
